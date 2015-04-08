@@ -1,0 +1,6 @@
+framework module awrccsdk {
+  umbrella header "awrccsdk.h"
+
+  export *
+  module * { export * }
+}
