@@ -57,7 +57,7 @@ To ask for permission to the user to get his location, app must have the key NSL
 ## USING THE SDK ##
 
 In order to use the sdk, import it's methods  
-#import <awrccsdk/awr_cc_sdk.h>
+    #import <awrccsdk/awr_cc_sdk.h>
 
 ### Method Description ###
 
