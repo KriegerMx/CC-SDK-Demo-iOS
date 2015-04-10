@@ -11,11 +11,13 @@ Use container awrccsdk.framework at folder Debug-iphoneos when performing test o
 2. In the editor (central panel), select General tab and locate the "Embedded Binaries" section. If the framework is not included, add it. Do the same for the "Linked Frameworks and Libraries" section.
 
 3. Verify that the framework has been included at "Build Phases" tab, in "Link Binary With Libraries" sections. If not, use the (+) button to add it.
-4. Locate the "Embed Frameworks" section and add the framework. Configuration within this section must be as follows (text in <> symbols is figurative):
-Destination: Frameworks
-Subpath: <blank>
-<unchecked> Copy only when installing
-<frameworksname> .framework <checked>
+4. Locate the "Embed Frameworks" section and add the framework. Configuration within this section must be as follows (text in [ ] symbols is figurative):
+
+    Destination: Frameworks   
+    Subpath: [blank]   
+    [unchecked] Copy only when installing   
+    [frameworksname] .framework [checked]   
+
 
 ### Configure Notifications ###
 
